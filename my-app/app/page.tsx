@@ -83,11 +83,11 @@ export default function Home() {
   {/* IBM */}
   <div className="shrink-0">
     <Image
-      src="https://images.vexels.com/media/users/3/140583/isolated/svg/905dd25934b7a05516389863f7cb9417.svg"
+      src="/images/ibm.png"
       alt="IBM"
-      width={55}
-      height={18}
-      className="invert brightness-200 opacity-90 h-4 sm:h-6 md:h-8 object-contain"
+      width={30}  
+      height={32}
+      className="invert brightness-200 opacity-90 h-6 sm:h-8 md:h-8 object-contain"
     />
   </div>
 

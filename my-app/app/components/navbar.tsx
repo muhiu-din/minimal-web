@@ -264,7 +264,7 @@ export default function Navbar(): any {
             </div>
 
             <nav className="px-4 space-y-1">
-                      <div className="flex flex-row px-3 pb-4  items-center gap-4">
+                      <div className="flex flex-row px-3 py-3   items-center gap-4">
             <span className="text-[8px]">Mon - Fri 10.00 - 18.00</span>
             <span className="h-4 border-l border-gray-200" />
             <span className="text-[8px]">Amiralsgatan 86E 214 37 Malmö, Sweden</span>
