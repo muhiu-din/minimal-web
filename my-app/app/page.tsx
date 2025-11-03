@@ -92,26 +92,26 @@ export default function Home() {
   </div>
 
   {/* Lyft */}
-  <SiLyft className="text-white opacity-90 w-7 h-4 sm:w-10 sm:h-6 md:w-12 md:h-7 shrink-0" />
+  <SiLyft className="text-white opacity-90 w-7 h-4 sm:w-10 sm:h-6 md:w-6 md:h-7 shrink-0" />
 
   {/* Spotify */}
   <div className="flex items-center gap-1 sm:gap-2 opacity-90 shrink-0">
-    <SiSpotify className="text-white w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />
-    <span className="font-semibold text-white text-[11px] sm:text-[12px] md:text-[14px] tracking-tight">
+    <SiSpotify className="text-white w-4 h-4 sm:w-5 sm:h-5 md:w-5  md:h-6" />
+    <span className="font-semibold text-white text-[11px] sm:text-[12px] md:text-[12px] tracking-tight">
       Spotify
     </span>
   </div>
 
   {/* Netflix */}
-  <span className="font-bold text-white opacity-90 text-[12px] sm:text-[14px] md:text-[16px] tracking-tight shrink-0">
+  <span className="font-bold text-white opacity-90 text-[12px] sm:text-[14px] md:text-[12px] tracking-tight shrink-0">
     Netflix
   </span>
 
   {/* HBO */}
-  <SiHbo className="text-white opacity-90 w-8 h-5 sm:w-10 sm:h-6 md:w-12 md:h-7 shrink-0" />
+  <SiHbo className="text-white opacity-90 w-8 h-5 sm:w-10 sm:h-6 md:w-6  md:h-6 shrink-0" />
 
   {/* Amazon */}
-  <SiAmazon className="text-white opacity-90 w-8 h-5 sm:w-10 sm:h-6 md:w-12 md:h-7 shrink-0" />
+  <SiAmazon className="text-white opacity-90 w-8 h-5 sm:w-10 sm:h-6 md:w-6 md:h-6 shrink-0" />
 </div>
 
           </div>
