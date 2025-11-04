@@ -253,7 +253,7 @@ export default function Navbar(): any {
             <div className="p-4 flex items-center justify-between border-b border-gray-100">
               <div className="flex items-center gap-3">
                 <Link href="/">
-                  <Image src="/images/logo.jpg" alt="logo" width={130} height={52} />
+                  <Image src="/images/logo.png" alt="logo" width={130} height={52} />
                 </Link>
               </div>
               <button onClick={() => setMobileOpen(false)} aria-label="Close menu" className="p-2">
