@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <section className="relative overflow-hidden">
       {/* Gradient background */}
-      <div className="absolute inset-0 -z-10 bg-linear-to-b from-[#ECF6FF] via-[#F5FAFF] to-[#DFF3F7]" />
+      <div className="absolute inset-0 -z-10 bg-linear-to-b from-[#00A76F0D] via-[#F5FAFF] to-[#8acbde]" />
 
       {/* Decorative dots */}
       <div className="pointer-events-none absolute inset-0 z-0">
@@ -85,7 +85,7 @@ export default function Home() {
     <Image
       src="/images/ibm.png"
       alt="IBM"
-      width={30}  
+      width={32}  
       height={32}
       className="invert brightness-200 opacity-90 h-6 sm:h-8 md:h-8 object-contain"
     />
@@ -96,22 +96,22 @@ export default function Home() {
 
   {/* Spotify */}
   <div className="flex items-center gap-1 sm:gap-2 opacity-90 shrink-0">
-    <SiSpotify className="text-white w-4 h-4 sm:w-5 sm:h-5 md:w-5  md:h-6" />
+    <SiSpotify className="text-white w-4 h-3 sm:w-4 sm:h-4 md:w-4  md:h-5" />
     <span className="font-semibold text-white text-[11px] sm:text-[12px] md:text-[12px] tracking-tight">
       Spotify
     </span>
   </div>
 
   {/* Netflix */}
-  <span className="font-bold text-white opacity-90 text-[12px] sm:text-[14px] md:text-[12px] tracking-tight shrink-0">
+  <span className="font-bold text-white opacity-90 text-[14px] sm:text-[16px] md:text-[14px] tracking-tight shrink-0">
     Netflix
   </span>
 
   {/* HBO */}
-  <SiHbo className="text-white opacity-90 w-8 h-5 sm:w-10 sm:h-6 md:w-6  md:h-6 shrink-0" />
+  <SiHbo className="text-white opacity-90 w-8 h-6 sm:w-12 sm:h-7 md:w-7  md:h-7 shrink-0" />
 
   {/* Amazon */}
-  <SiAmazon className="text-white opacity-90 w-8 h-5 sm:w-10 sm:h-6 md:w-6 md:h-6 shrink-0" />
+  <SiAmazon className="text-white opacity-90 w-8 h-4 sm:w-9 sm:h-5 md:w-5 md:h-5 shrink-0" />
 </div>
 
           </div>

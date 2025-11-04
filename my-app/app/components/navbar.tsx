@@ -111,7 +111,7 @@ export default function Navbar(): any {
       </div>
 
       {/* main navigation row */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-2 pr-8 sm:px-4 sm:pr-12 lg:px-8 lg:pr-16">
         <div className="flex items-center justify-between py-4">
           <div className="flex justify-between items-center  w-full">
             {/* logo */}
@@ -210,7 +210,7 @@ export default function Navbar(): any {
 
             {/* Book appointment and login div (desktop) */}
             <div className="hidden lg:flex flex-row gap-2">
-              <Link href="#"><div className="px-4 py-2 border rounded-lg text-sm font-medium hover:bg-gray-100">Book an Appointment</div></Link>
+              <Link href="#"><div className="px-4 py-2 border rounded-lg text-sm  font-medium hover:bg-gray-100">Book an Appointment</div></Link>
               <Link href="#"><div className="px-4 py-2 bg-black hover:bg-gray-600  text-white rounded-lg text-sm font-medium">Login</div></Link>
             </div>
 
