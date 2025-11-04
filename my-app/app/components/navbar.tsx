@@ -56,7 +56,7 @@ export default function Navbar(): any {
   }, []);
 
   return (
-    <header className="w-full bg-white border-b border-gray-100">
+    <header className="w-full bg-[#6cd9b50d] ">
       {/* top thin info row */}
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="md:flex hidden items-center justify-between text-sm text-gray-500 py-2">
@@ -117,7 +117,7 @@ export default function Navbar(): any {
             {/* logo */}
             <div className="flex items-center">
               <Link href="/">
-                <Image className="2xl:h-20 2xl:w-70" src="/images/logo.jpg" alt="Sweden Relocators" width={200} height={80} />
+                <Image className="2xl:h-20 2xl:w-70" src="/images/logo.png" alt="Sweden Relocators" width={200} height={80} />
               </Link>
               <span className="sr-only">Sweden Relocators</span>
             </div>

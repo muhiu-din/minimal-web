@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <section className="relative overflow-hidden">
       {/* Gradient background */}
-      <div className="absolute inset-0 -z-10 bg-linear-to-b from-[#00A76F0D] via-[#F5FAFF] to-[#8acbde]" />
+      <div className="absolute inset-0 -z-10 bg-linear-to-b from-[#6cd9b50d] via-[#F5FAFF] to-[#8acbde]" />
 
       {/* Decorative dots */}
       <div className="pointer-events-none absolute inset-0 z-0">
@@ -19,7 +19,7 @@ export default function Home() {
       </div>
 
       {/* Content container */}
-       <div className="mx-auto max-w-[1920px] px-4 sm:px-6 lg:px-12 pt-12 pb-28 lg:pt-16 lg:pb-36">
+       <div className="mx-auto max-w-[1920px] px-4 sm:px-10 lg:px-16 pt-12 pb-28 lg:pt-16 lg:pb-36">
       <div className="grid grid-cols-1 px-2 lg:grid-cols-12 items-center gap-10 xl:gap-16">
         {/* Left Text Block */}
         <div className="lg:col-span-7  py-4 sm:py-6 lg:py-8">
@@ -32,7 +32,7 @@ export default function Home() {
             </span>
           </h1>
 
-          <p className="mt-6 max-w-2xl text-[14px] sm:text-[15px] md:text-[16px] xl:text-[18px] 2xl:text-[20px] leading-relaxed text-[#5F6B7A]">
+          <p className="mt-6 max-w-2xl text-[12px] sm:text-[14px] md:text-[15px] xl:text-[17px] 2xl:text-[19px] leading-relaxed text-[#5F6B7A]">
             We provide comprehensive relocation and immigration support for
             individuals, employees, and companies—covering residence permits,
             housing, school placements, and integration—all seamlessly managed
