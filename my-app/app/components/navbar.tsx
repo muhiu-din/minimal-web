@@ -58,7 +58,7 @@ export default function Navbar(): any {
   return (
     <header className="w-full bg-white border-b border-gray-100">
       {/* top thin info row */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="md:flex hidden items-center justify-between text-sm text-gray-500 py-2">
           <div className="flex items-center gap-4">
             <span>Mon - Fri 10.00 - 18.00</span>
@@ -111,19 +111,19 @@ export default function Navbar(): any {
       </div>
 
       {/* main navigation row */}
-      <div className="max-w-7xl mx-auto px-2 pr-7 sm:px-4 sm:pr-11 lg:px-8 lg:pr-15">
+      <div className=" mx-auto px-2 pr-7 sm:px-4 sm:pr-11 lg:px-8 lg:pr-15">
         <div className="flex items-center justify-between py-4">
           <div className="flex justify-between items-center  w-full">
             {/* logo */}
             <div className="flex items-center">
               <Link href="/">
-                <Image src="/images/logo.jpg" alt="Sweden Relocators" width={200} height={80} />
+                <Image className="2xl:h-20 2xl:w-70" src="/images/logo.jpg" alt="Sweden Relocators" width={200} height={80} />
               </Link>
               <span className="sr-only">Sweden Relocators</span>
             </div>
 
             {/* nav (desktop) */}
-            <nav className="hidden text-black lg:flex items-center gap-6 text-sm font-semibold">
+            <nav className="hidden text-black lg:flex 2xl:text-xl items-center gap-6 text-sm font-semibold">
               <Link href="/new">New in Sweden</Link>
 
               <div ref={servicesRef} className="relative">
@@ -210,8 +210,8 @@ export default function Navbar(): any {
 
             {/* Book appointment and login div (desktop) */}
             <div className="hidden lg:flex flex-row gap-2">
-              <Link href="#"><div className="px-4 py-2 border rounded-lg text-sm  font-medium hover:bg-gray-100">Book an Appointment</div></Link>
-              <Link href="#"><div className="px-4 py-2 bg-black hover:bg-gray-600  text-white rounded-lg text-sm font-medium">Login</div></Link>
+              <Link href="#"><div className="px-4 py-2 border rounded-lg text-sm 2xl:text-xl font-medium hover:bg-gray-100">Book an Appointment</div></Link>
+              <Link href="#"><div className="px-4 py-2 bg-black hover:bg-gray-600 2xl:text-xl text-white rounded-lg text-sm font-medium">Login</div></Link>
             </div>
 
             {/* MOBILE: hamburger */}
