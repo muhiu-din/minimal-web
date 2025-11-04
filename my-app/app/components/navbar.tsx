@@ -111,7 +111,7 @@ export default function Navbar(): any {
       </div>
 
       {/* main navigation row */}
-      <div className="max-w-7xl mx-auto px-2 pr-8 sm:px-4 sm:pr-12 lg:px-8 lg:pr-16">
+      <div className="max-w-7xl mx-auto px-2 pr-7 sm:px-4 sm:pr-11 lg:px-8 lg:pr-15">
         <div className="flex items-center justify-between py-4">
           <div className="flex justify-between items-center  w-full">
             {/* logo */}

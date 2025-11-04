@@ -20,9 +20,9 @@ export default function Home() {
 
       {/* Content container */}
        <div className="mx-auto max-w-[1920px] px-4 sm:px-6 lg:px-12 pt-12 pb-28 lg:pt-16 lg:pb-36">
-      <div className="grid grid-cols-1 lg:grid-cols-12 items-center gap-10 xl:gap-16">
+      <div className="grid grid-cols-1 px-2 lg:grid-cols-12 items-center gap-10 xl:gap-16">
         {/* Left Text Block */}
-        <div className="lg:col-span-7 p-4 sm:p-6 lg:p-8">
+        <div className="lg:col-span-7  py-4 sm:py-6 lg:py-8">
           <h1 className="font-extrabold tracking-tight leading-tight">
             <span className="block text-[28px] sm:text-[32px] md:text-[36px] xl:text-[42px] 2xl:text-[48px] text-[#0A0A0A]">
               Relocate To Sweden
@@ -40,7 +40,7 @@ export default function Home() {
             and the wider Nordic region.
           </p>
 
-          <div className="mt-8 flex flex-wrap justify-center sm:justify-end gap-4 sm:gap-5">
+          <div className="mt-8 flex flex-wrap justify-center mx-5  2xl:max-w-1/2 2xl:mx-40 sm:justify-end gap-4 sm:gap-5">
             <button className="px-5 py-3 rounded-lg bg-[#0B0B0B] text-white text-[12px] sm:text-[15px] font-semibold shadow-sm hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-black/20">
               Our Services
             </button>
